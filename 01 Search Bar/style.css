@@ -1,0 +1,124 @@
+/* Initial Configuration */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*, *::before, *::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-1: #6F6560;
+  --color-2: #B7B3AD;
+  --color-3: #FAF9F8;
+  --color-4: #384B8F;
+  --color-5: #000000;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Styling Here */
+main {
+  background-color: var(--color-2);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.head {
+  width: 100%;
+  display: flex;
+  gap: 1.2rem;
+  padding: 1.2rem;
+  height: 7.4rem;
+  background-color: var(--color-3);
+}
+
+.head__calendar,
+.search__button {
+  border: none;
+  outline: none;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.head__calendar {
+  flex: 1;
+  max-width: 5rem;
+  color: var(--color-3);
+  background-color: var(--color-5);
+  transition: all .3s ease;
+}
+
+.head__calendar:hover {
+  color: var(--color-3);
+  background-color: var(--color-4);
+  transition: all .3s ease;
+}
+
+.head__search {
+  flex: 1;
+  position: relative;
+}
+
+.search__button {
+  position: absolute;
+  top: 0; left: 0; bottom: 0;
+  color: var(--color-5);
+  background-color: transparent;
+  padding: 0 1.2rem;
+}
+
+.search__input {
+  width: 100%;
+  height: 100%;
+  padding-left: 3.8rem;
+  outline: none;
+  border: 1px solid var(--color-2);
+  color: var(--color-1);
+  font-size: 1.2rem;
+}
+
+.search__input::placeholder {
+  color: var(--color-2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
